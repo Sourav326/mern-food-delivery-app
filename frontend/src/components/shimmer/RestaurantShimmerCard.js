@@ -3,7 +3,7 @@ const RestaurantShimmerCard = () => {
         <>
             <div class="shadow rounded-md">
                 <div class="animate-pulse">
-                <div class="rounded bg-slate-200 w-full h-52"></div>
+                <div class="rounded bg-slate-200 w-full h-80"></div>
                 <div class="flex-1 space-y-6 py-1 px-4">
                     <div class="h-3 bg-slate-200 rounded mt-3 w-2/5"></div>
                     <div class="space-y-3">

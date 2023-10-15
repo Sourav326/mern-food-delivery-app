@@ -14,7 +14,7 @@ const RestaurantCard = (props,index) => {
                     <span className="absolute top-5 bg-white  text-xl font-bold px-4 z-20 rounded-r-lg">Top</span>
                 )
             }
-            <img src={RESTRO_URL+data?.cloudinaryImageId} alt="" className='w-full h-52 rounded-t-lg transition ease-linear delay-70 group-hover:-translate-y-1 group-hover:scale-105  group-hover:duration-400' />
+            <img src={RESTRO_URL+data?.cloudinaryImageId} alt="" className='w-full h-80 rounded-t-lg transition ease-linear delay-70 group-hover:-translate-y-1 group-hover:scale-105  group-hover:duration-400' />
             <div className='p-4 flex flex-col gap-3'>
                 <div className='text-lg font-bold hover:text-lime-600'><Link to="/restaurant">{data?.name}</Link></div>
                 <div className='text-sm text-slate-400 font-normal'>{data?.cuisines.join(', ')}</div>

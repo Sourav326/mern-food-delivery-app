@@ -1,10 +1,27 @@
+import { useEffect, useState } from "react"
 import ProductCard from "./ProductCard"
-import restroProducts from "../utils/restroProducts"
+import axios from "axios"
+import RestaurantShimmer from "./shimmer/RestaurantShimmer"
 
 const ProductList = () => {
-    const menu = restroProducts[0].data.Menu
+    const [menu, setMenu] = useState([])
+
+    const getProducts = async () => {
+        try {
+          const res = await axios.get("http://localhost:3001/api/products");
+          setMenu(res.data);
+        } catch (error) {
+            console.log(error.message);
+        }
+      };
+    
+      useEffect(() => {
+        getProducts();
+      }, []);
    
-    return(
+    return menu.length == 0 ? (
+    <RestaurantShimmer />
+    ) : (
         <>
         <div className="py-16 border-t">
         <h2 className="text-3xl font-semibold capitalize pb-3">
