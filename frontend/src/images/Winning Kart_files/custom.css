@@ -1,0 +1,35 @@
+.input_error{
+    color: red;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.admin-profile-image{
+    width: 250px;
+    height:250px;
+    padding: 20px;
+}
+.admin-profile-image img{
+    width: 100%;
+    height: 100%;
+    border: 10px solid #ff8300;
+    border-radius: 50%;
+}
+#imagePreviews{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+#imagePreviews  img{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.multi-select{
+    height: 46px !important;
+   
+}

@@ -1,0 +1,34 @@
+
+.logo-text{
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px 10px;
+}
+
+.logo-text-second{
+    color: #32a404;
+}
+
+nav{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.react-multiple-carousel__arrow{
+    z-index: 2 !important;
+    background: rgb(198 82 255 / 87%) !important
+}
+
+.react-multiple-carousel__arrow--right{
+    right: calc(0% + 0px) !important;
+}
+.react-multiple-carousel__arrow--left{
+    left: calc(0% + 0px) !important;
+}
+
+.active{
+    color: rgb(46, 137, 10);
+    font-weight: 600;
+}
