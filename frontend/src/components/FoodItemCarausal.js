@@ -1,10 +1,24 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ProductCard from "./ProductCard"
-import restroProducts from "../utils/restroProducts"
+
+import axios from "axios";
+import {useState, useEffect} from 'react'
+import RestaurantShimmer from "./shimmer/RestaurantShimmer";
 
 const FoodItemCarausal = (props) => {
-    const menu = restroProducts[0].data.Menu
+    const [menu,setMenu] = useState([])
+
+    const getProducts = async () => {
+      const res = await axios.get('http://localhost:3001/api/products')
+      setMenu(res.data)
+    }
+
+    useEffect(()=> {
+      getProducts()
+    },[])
+
+
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 3000 },
@@ -25,7 +39,10 @@ const FoodItemCarausal = (props) => {
           items: 1,
         },
       };
-    return(
+
+      return menu.length == 0 ?(
+        <RestaurantShimmer />
+    ) :(
         <>
         <h2 className="text-3xl font-semibold capitalize pb-3">
           {props.title}
@@ -37,6 +54,7 @@ const FoodItemCarausal = (props) => {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 className="py-6">
                     {
+                      
                         menu.map((item,index)=>(
                           <div className="px-3" key={index}>
                             <ProductCard item={item}  />
