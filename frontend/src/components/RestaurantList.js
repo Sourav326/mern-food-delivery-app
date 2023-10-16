@@ -1,10 +1,21 @@
+import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
-import Restaurants from "../utils/Restaurants"
+import axios from "axios";
 
 const RestaurantList = () => {
+  const [restaurants,setRestaurants] = useState([])
+
+  const getRestaurants = async () => {
+    const res = await axios.get('http://localhost:3001/api/restaurants')
+    setRestaurants(res.data)
+  }
+
+  useEffect(() => {
+    getRestaurants()
+  },[])
 
   // Use slice to limit the number of records
-  const topRestaurants = Restaurants.filter(restaurant => restaurant.avgRating > 4);
+  const topRestaurants = restaurants.filter(restaurant => restaurant.avgRating > 4);
   
   return (
     <>
