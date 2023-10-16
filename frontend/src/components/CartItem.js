@@ -24,8 +24,8 @@ const CartItem = (props) => {
       }
     return(
         <>
-         <div key={item.id} className="flex flex-col lg:flex-row justify-between items-center p-3 rounded-lg shadow-[0_.5rem_1rem_5px_rgba(0,0,0,.15)] border-0 bg-white">
-            <div className="flex gap-2 w-full lg:w-[60rem]">
+         <div className="flex flex-col lg:flex-row justify-between items-center p-3 rounded-lg shadow-[0_.5rem_1rem_5px_rgba(0,0,0,.15)] border-0 bg-white">
+            <div className="flex gap-2 w-full lg:w-3/4">
                 <img className="" src={item?.image} alt={item?.image} width="100px"/>
                 <div className="flex flex-col justify-between">
                     <h2 className="text-md font-bold hover:text-lime-600">{item?.name}</h2>
@@ -34,6 +34,8 @@ const CartItem = (props) => {
             </div>
             <div className="flex pt-3 lg:pt-0 justify-between lg:justify-around w-full">
                 <span className="font-bold">₹{item?.price}</span>
+                <span className="font-bold">{item?.quantity}</span>
+                <span className="font-bold">₹{item?.price * item?.quantity}</span>
                 <span onClick={() => handleRemoveItem(item)} className="flex items-center font-bold text-red-500 hover:text-red-800 hover:cursor-pointer">Remove <CloseIcon /></span>
             </div>
         </div>

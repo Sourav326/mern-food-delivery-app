@@ -48,7 +48,7 @@ const Cart = () => {
                     <div className="flex flex-col py-8 gap-6 col-span-2"> 
                         {
                             cartItems.map((item,index) =>(
-                            <CartItem item={item} />
+                            <CartItem item={item}  key={index} />
                             )) 
                         }
                     </div>
