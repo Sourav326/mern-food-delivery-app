@@ -11,7 +11,7 @@ import Contact from './components/pages/Contact';
 import Signin from './components/pages/Signin';
 import Restaurant from './components/pages/Restaurant';
 import Signup from './components/pages/Signup';
-import SingleRestaurant from './components/SingleRestaurant';
+import SingleRestaurant from './components/pages/SingleRestaurant';
 import Cart from './components/pages/Cart';
 
 
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
         element:<Signup />
       },
       {
-        path:"/restaurant",
+        path:"/restaurant/:id",
         element:<SingleRestaurant />
       },
       {

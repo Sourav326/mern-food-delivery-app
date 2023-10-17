@@ -3,12 +3,13 @@ import ProductCard from "./ProductCard"
 import axios from "axios"
 import RestaurantShimmer from "./shimmer/RestaurantShimmer"
 
-const ProductList = () => {
+const ProductList = (params) => {
+  
     const [menu, setMenu] = useState([])
 
     const getProducts = async () => {
         try {
-          const res = await axios.get("http://localhost:3001/api/products");
+          const res = await axios.get(`http://localhost:3001/api/restaurant/${params.id}`);
           setMenu(res.data);
         } catch (error) {
             console.log(error.message);

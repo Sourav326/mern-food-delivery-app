@@ -16,7 +16,7 @@ const RestaurantCard = (props,index) => {
             }
             <img src={RESTRO_URL+data?.cloudinaryImageId} alt="" className='w-full h-80 rounded-t-lg transition ease-linear delay-70 group-hover:-translate-y-1 group-hover:scale-105  group-hover:duration-400' />
             <div className='p-4 flex flex-col gap-3'>
-                <div className='text-lg font-bold hover:text-lime-600'><Link to="/restaurant">{data?.name}</Link></div>
+                <div className='text-lg font-bold hover:text-lime-600'><Link to={`/restaurant/${data.id}`}>{data?.name}</Link></div>
                 <div className='text-sm text-slate-400 font-normal'>{data?.cuisines.join(', ')}</div>
                 <div className='text-sm text-slate-400 font-bold'>{data?.costForTwo}, <span className='text-sm text-slate-300'>{data?.areaName}</span></div>
                 
