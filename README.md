@@ -1,19 +1,15 @@
- # FoodBox
- <p>Food Delivery Application Using Reactjs, Nodejs, Expressjs and Mongodb.</p>
+<h1 align="center" id="title">FoodBox</h1>
 
-<p align="center"><img alt="Nodejs expressjs Mongodb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/MERN-logo.png/640px-MERN-logo.png" width="165"/></p>
+<p align="center"><img src="https://socialify.git.ci/Sourav326/mern-food-delivery-app/image?description=1&amp;descriptionEditable=This%20is%20a%20food%20delivery%20application%20using%20Reactjs%2C%20Nodejs%2C%20Expressjs%2C%20and%20Mongodb.&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Fwww.aalpha.net%2Fwp-content%2Fuploads%2F2021%2F09%2Fbenefits-of-mern-stack.png&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
-<p align="center">
-<img src="https://img.shields.io/github/license/larymak/Python-project-Scripts" alt="Build Status">
-</p>
+<p id="description">This is a food delivery application using Reactjs Nodejs Expressjs and Mongodb.</p>
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT
 
 
 
-<h1 align="center">README Gen</h1>
-
-<p align="center"><img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1630127769/Blogimages/Screenshot_2021-08-28_at_10.46.02_AM_yapvfb.png" alt="project"></p>
-
-<p>README Gen is a tool to build amazing README files for your open source project faster than ever before. More details here: <a href="https://saurabhnative.hashnode.dev/introducing-readme-gen-most-advanced-readme-generator-for-your-opensource-projects">Hashnode Article on README Gen</a></p>
 
 <p align="center"><img src="https://img.shields.io/github/license/saurabhnative/create-frontend-readme" alt="shields"><img src="https://img.shields.io/github/stars/saurabhnative/create-frontend-readme" alt="shields"><img src="https://img.shields.io/github/forks/saurabhnative/create-frontend-readme" alt="shields"><a href="https://twitter.com/intent/tweet?text=Checkout%20readme-gen.vercel.app%20by%20@saurabhnative.%20Most%20advanced%20README%20generator%20for%20your%20Github projects🔥">
 <a href="https://twitter.com/intent/tweet?text=Checkout%20readme-gen.vercel.app%20by%20@saurabhnative.%20Most%20advanced%20README%20generator%20for%20your%20Github projects🔥"><img src="https://img.shields.io/twitter/url?style=social&amp;url=https%3A%2F%2Fgithub.com%2Fsaurabhnative%2Fcreate-frontend-readme"></a>
