@@ -6,9 +6,8 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/Sourav326/mern-food-delivery-app/assets/56920753/2b4419f4-37e9-4a18-acaa-7183bcdc4b21" alt="shields" width="100%">
-<img src="https://github.com/Sourav326/mern-food-delivery-app/assets/56920753/77b77fed-ae03-49af-b4f4-e343ecc4a69a" alt="shields" width="100%">
-  
+<img src="https://github.com/Sourav326/mern-food-delivery-app/assets/56920753/1264f744-8f81-4965-98ce-fa3dcc801f5c" />
+
   
 <h2>🧐 Features</h2>
 
