@@ -28,6 +28,10 @@
 
 <img src="https://res.cloudinary.com/dk22rcdch/image/upload/v1630128095/Blogimages/Screenshot_2021-08-28_at_10.51.24_AM_pdkh3t.png" alt="shields" width="800" height="400&quot;/">
 
+![FoodBox Landing](https://github.com/Sourav326/mern-food-delivery-app/assets/56920753/2b4419f4-37e9-4a18-acaa-7183bcdc4b21)
+![FoodBox Restaurant](https://github.com/Sourav326/mern-food-delivery-app/assets/56920753/77b77fed-ae03-49af-b4f4-e343ecc4a69a)
+
+
   
   
 <h2>🧐 Features</h2>
