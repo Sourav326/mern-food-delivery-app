@@ -70,7 +70,7 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 Technologies used in the project:
 
-*  [Next.js](https://nextjs.org/) 
+*  [React.js](https://react.dev/) 
 *  [TailwindCSS](https://tailwindcss.com/)  
 *  [Auth0 for user authentication](https://auth0.com/docs/quickstart/webapp/nextjs) 
 *  [react-collapsible](https://www.npmjs.com/package/react-collapsible)  - For collapsible menu items
