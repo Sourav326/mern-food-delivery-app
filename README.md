@@ -86,5 +86,3 @@ This project is licensed under the MIT License
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.   
 
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T24KNL5)
