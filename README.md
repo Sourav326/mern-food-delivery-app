@@ -91,6 +91,8 @@ Technologies used in the project:
 *  [React Redux](https://react-redux.js.org/) - For cart functionality
 *  [TailwindCSS](https://tailwindcss.com/)  - For designing of the application
 *  [react-toastify](https://www.npmjs.com/package/react-toastify)  - For toast notification
+*  [Express.js](https://expressjs.com/)  - For backend API's
+*  [Mongodb](https://www.mongodb.com/)  - For database
 
 <h2>🛡️ License:</h2>
 
