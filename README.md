@@ -31,7 +31,7 @@ Here are some of the project's best features:
 <p>1. Clone the repository</p>
 
 ```
-git clone repo_url
+git clone [repo_url](https://github.com/Sourav326/mern-food-delivery-app.git)
 ```
 
 <p>2. Install npm modules</p>
