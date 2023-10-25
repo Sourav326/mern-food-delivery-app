@@ -70,7 +70,8 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 Technologies used in the project:
 
-*  [React.js](https://react.dev/) 
+*  [React.js](https://react.dev/)
+*  [react Redux](https://react-redux.js.org/) - For cart functionality
 *  [TailwindCSS](https://tailwindcss.com/)  - For CSS designing of the application
 *  [react-toastify](https://www.npmjs.com/package/react-toastify)  - For toast notification
 
