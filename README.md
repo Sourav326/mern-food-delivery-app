@@ -88,8 +88,8 @@ Please contribute. Create a branch add commits and open a pull request.
 Technologies used in the project:
 
 *  [React.js](https://react.dev/)
-*  [react Redux](https://react-redux.js.org/) - For cart functionality
-*  [TailwindCSS](https://tailwindcss.com/)  - For CSS designing of the application
+*  [React Redux](https://react-redux.js.org/) - For cart functionality
+*  [TailwindCSS](https://tailwindcss.com/)  - For designing of the application
 *  [react-toastify](https://www.npmjs.com/package/react-toastify)  - For toast notification
 
 <h2>🛡️ License:</h2>
