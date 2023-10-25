@@ -11,13 +11,18 @@
   
 <h2>🧐 Features</h2>
 
-Here're some of the project's best features:
+Here are some of the project's best features:
 
 *   Easy to Use
-*   Simple Form based inputs for adding README sections
-*   Markdown editor for further customisation
-*   Code preview section for markdown
-*   Copy Markdown code in a single click
+*   Landing page which has restaurant listings and a carousel for products
+*   Restaurants with their ratings and veg/non-veg preferences
+*   Search restaurants with their name
+*   Filter out the restaurants on the basis of rating and area
+*   Single restaurant page with all its product listings
+*   Easy registration with minimal fields
+*   Easy login
+*   Newsletter section
+*   Attractive footer with important links
 
 <h2>🛠️ Installation Steps:</h2>
 
