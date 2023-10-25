@@ -34,17 +34,37 @@ Here are some of the project's best features:
 git clone https://github.com/Sourav326/mern-food-delivery-app.git
 ```
 
-<p>2. Install npm modules</p>
+<p>2. Go inside the project folder</p>
+
+```
+cd mern-food-delivery-app
+```
+
+<p>3. Go inside the backend folder</p>
+
+```
+cd backend
+```
+
+<p>4. Install npm modules</p>
 
 ```
 npm install
 ```
 
-<p>3. Start development server using below command</p>
+<p>5. Go inside the frontend folder</p>
 
 ```
-yarn dev
+cd frontend
 ```
+
+<p>4. Install npm modules</p>
+
+```
+npm install
+```
+
+
 **Note:** For running authentication using auth0 service create a `.env.local` file and add changes as per official article:-
 <a href="https://auth0.com/docs/quickstart/webapp/nextjs/01-login#configure-the-sdk">Auth0 Next.js Quick Start</a>
 
