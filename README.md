@@ -79,7 +79,7 @@ npm start
 
 <h2>🍰 Contribution Guidelines:</h2>
 
-Please contribute. Create a branch add commits and open a pull request.
+Please contribute. Create a branch, add commits, and open a pull request.
 
   
   
