@@ -19,6 +19,8 @@ Here are some of the project's best features:
 *   Search restaurants with their name
 *   Filter out the restaurants on the basis of rating and area
 *   Single restaurant page with all its product listings
+*   Easily add the product to the cart
+*   Remove the items from the cart or empty the cart
 *   Easy registration with minimal fields
 *   Easy login
 *   Newsletter section
