@@ -37,7 +37,7 @@ git clone https://github.com/Sourav326/mern-food-delivery-app.git
 <p>2. Install npm modules</p>
 
 ```
-yarn install
+npm install
 ```
 
 <p>3. Start development server using below command</p>
