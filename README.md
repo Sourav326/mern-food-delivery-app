@@ -52,16 +52,28 @@ cd backend
 npm install
 ```
 
-<p>5. Go inside the frontend folder</p>
+<p>5. Run the backend server</p>
+
+```
+npx nodemon
+```
+
+<p>6. Go inside the frontend folder</p>
 
 ```
 cd frontend
 ```
 
-<p>4. Install npm modules</p>
+<p>7. Install npm modules</p>
 
 ```
 npm install
+```
+
+<p>8. Run the frontend server</p>
+
+```
+npm start
 ```
 
 
