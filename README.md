@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/Sourav326/mern-food-delivery-app/image?description=1&amp;descriptionEditable=This%20is%20a%20food%20delivery%20application%20using%20Reactjs%2C%20Nodejs%2C%20Expressjs%2C%20and%20Mongodb.&amp;font=Inter&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Fwww.aalpha.net%2Fwp-content%2Fuploads%2F2021%2F09%2Fbenefits-of-mern-stack.png&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
-<p id="description">This is a food delivery application using Reactjs Nodejs Expressjs and Mongodb.</p>
+<p id="description">This is a food delivery application created using <strong>MERN</strong> Stack. </p>
 
 <h2>Project Screenshots:</h2>
 
