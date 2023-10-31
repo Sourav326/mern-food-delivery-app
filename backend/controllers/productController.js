@@ -429,11 +429,7 @@ const products = (req, res) => {
 };
 const productsOfRestro = (req, res) => {
   const filtered = data.filter(product => product.restro_id == req.params.id);
-  if(filtered.length > 0){
     res.status(200).send(filtered);
-  } else {
-    res.status(404).json({message:"No Products Found"})
-  }
 };
 
 module.exports = {
