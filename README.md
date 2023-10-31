@@ -8,7 +8,9 @@
 
 <img src="https://github.com/Sourav326/mern-food-delivery-app/assets/56920753/1264f744-8f81-4965-98ce-fa3dcc801f5c" />
 
-  
+<h2>🧐 Demo</h2>
+https://mern-food-delivery-app-frontend.vercel.app
+
 <h2>🧐 Features</h2>
 
 Here are some of the project's best features:
