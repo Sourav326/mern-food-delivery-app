@@ -13,7 +13,7 @@ const RestaurantListWithFilters = (props) => {
    
   const getRestaurants = async () => {
     try {
-      const res = await axios.get("http://localhost:3001/api/restaurants");
+      const res = await axios.get("https://mern-food-delivery-app.vercel.app/api/restaurants");
       setRestaurantsList(res.data);
       setFilterRestaurant(res.data);
     } catch (error) {

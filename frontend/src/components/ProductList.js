@@ -11,7 +11,7 @@ const ProductList = (params) => {
 
     const getProducts = async () => {
         try {
-          const res = await axios.get(`http://localhost:3001/api/restaurant/${params.id}`);
+          const res = await axios.get(`https://mern-food-delivery-app.vercel.app/api/restaurant/${params.id}`);
           setMenu(res.data);
           setFilterMenu(res.data);
         } catch (error) {

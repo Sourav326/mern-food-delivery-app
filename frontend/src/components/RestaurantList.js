@@ -7,7 +7,7 @@ const RestaurantList = () => {
   const [restaurants,setRestaurants] = useState([])
 
   const getRestaurants = async () => {
-    const res = await axios.get('http://localhost:3001/api/restaurants')
+    const res = await axios.get('https://mern-food-delivery-app.vercel.app/api/restaurants')
     setRestaurants(res.data)
   }
   
