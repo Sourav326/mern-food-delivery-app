@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter , RouterProvider} from 'react-router-dom';
 import About from './components/pages/About';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
 import Home from './components/pages/Home';
 import Error from './components/pages/Error';
 import Contact from './components/pages/Contact';
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:"/about",
         element:<About />
+      },
+      {
+        path:"/privacy-policy",
+        element:<PrivacyPolicy />
       },
       {
         path:"/contact",
