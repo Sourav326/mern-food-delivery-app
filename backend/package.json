@@ -6,7 +6,7 @@
   "scripts": {
       "dev": "nodemon index.js",
       "start": "node index.js"
-    }
+    },
   "author": "Sourav Chauhan",
   "license": "ISC",
   "dependencies": {
