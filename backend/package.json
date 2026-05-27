@@ -4,9 +4,9 @@
   "description": "Api for food app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon"
-  },
+      "dev": "nodemon index.js",
+      "start": "node index.js"
+    }
   "author": "Sourav Chauhan",
   "license": "ISC",
   "dependencies": {
